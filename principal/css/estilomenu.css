@@ -23,8 +23,8 @@ width:auto;
 	position: relative;
 	float: left;
 	border-right: 1px solid #990000;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color:#228B22;
 	border-radius: 3px;
 	-moz-border-radius:3px;
@@ -46,7 +46,7 @@ width:auto;
 .menu li ul {
 	list-style-type: none;
 	position:absolute;		
-	top: 30px;
+	top: 50px;
 	left: -10px;
 	display: none;
 
