@@ -1,0 +1,31 @@
+html, body {
+	height: 150%;
+	
+}
+.geral {
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+}
+.banner {
+	
+	height: 10px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.rodape {
+	color: white;
+    background-color: #228B22;
+	border: 1px solid;
+	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+	padding-bottom: 8px; 
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}

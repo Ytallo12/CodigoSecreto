@@ -1,0 +1,79 @@
+/* Documento css */
+
+*{
+
+	margin: 0px;
+	padding:0px;
+}
+
+.menu {
+	list-style-type: none;
+	margin: 150px 0 0 350px;
+	float:left;	
+
+
+}
+.container {
+       left:50%;
+margin-left:-375px; /* metade da largura fictícia */
+position:absolute;
+width:auto;
+}
+.menu li { 
+	position: relative;
+	float: left;
+	border-right: 1px solid #990000;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color:#228B22;
+	border-radius: 3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;	
+	height: 0px 20px 0px;
+	line-height: 28px;
+
+
+}
+.menu li a {
+	display:inline;	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFFFFF;
+	cursor:pointer;
+	text-decoration: none;
+	
+}
+.menu li ul {
+	list-style-type: none;
+	position:absolute;		
+	top: 30px;
+	left: -15px;
+	display: none;
+
+}
+.menu li:hover ul, .menu li ul li:hover ul, .menu li .over ul, .menu li ul li .over ul{
+	display: block
+
+}
+.menu li ul li { 
+	border: 2px solid #990000;
+	display:block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+
+}
+
+
+
+body{
+	
+}
+ul li:hover{
+	background-color: #FF0000;
+
+}
+ 
+
+
+
