@@ -46,7 +46,7 @@ width:auto;
 .menu li ul {
 	list-style-type: none;
 	position:absolute;		
-	top: 50px;
+	top: 30px;
 	left: -10px;
 	display: none;
 
