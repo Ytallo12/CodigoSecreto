@@ -1,5 +1,7 @@
 /* Documento css */
-
+body{
+    background-color: #E6E6FA
+}
 *{
 
 	margin: 0px;
@@ -58,7 +60,7 @@ width:auto;
 .menu li ul li { 
 	border: 2px solid #228B22;
 	display:block;
-	width: 150px;
+	width: 130px;
 	height: 30px;
 	line-height: 30px;
 
