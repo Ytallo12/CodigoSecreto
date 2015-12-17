@@ -14,10 +14,10 @@
 
 }
 .container {
-       left:50%;
-margin-left:-375px; /* metade da largura fictícia */
-position:absolute;
-width:auto;
+	left:50%;
+	margin-left:-375px; /* metade da largura fictícia */
+	position:absolute;
+	width:auto;
 }
 .menu li { 
 	position: relative;
@@ -63,8 +63,6 @@ width:auto;
 	line-height: 30px;
 
 }
-
-
 
 body{
 	
