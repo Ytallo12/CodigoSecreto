@@ -1,44 +1,28 @@
-
 *{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
     
 }
 p{
-     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-      margin-left: 100px;
-      margin-right: 200px;
-      text-indent: 50px;
-      text-align: justify;
-    
-  
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-indent: 50px;
+  text-align: justify;
 }
 
 h1{
-   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    text-align: right;    
-    text-align: justify;
-    letter-spacing: 1px;
-    word-spacing: -9,1px;
-    margin-left: 100px;
-    margin-right: 200px;
-    line-height: 500%;
-    color:#228B22;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;    
+  text-align: justify;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  color:#228B22;
 }
 h2{
-    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-    word-spacing: -9,1px;
-    margin-left: 100px;
-    margin-right: 200px;
-    line-height: 500%;
+  line-height: 350%;
     
 }
-h3 h4{
-    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-    
-  
-}
-
-    
-    
+h2, h3, h4{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding-left: 20px;
 }
