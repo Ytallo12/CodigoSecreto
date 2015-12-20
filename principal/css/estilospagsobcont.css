@@ -24,7 +24,20 @@ h1{
     margin-right: 200px;
     line-height: 500%;
     color:#228B22;
+}
+h2{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    word-spacing: -9,1px;
+    margin-left: 100px;
+    margin-right: 200px;
+    line-height: 500%;
     
+}
+h3 h4{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    
+  
+}
 
     
     
