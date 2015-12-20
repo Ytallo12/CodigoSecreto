@@ -1,31 +1,34 @@
 html, body {
-	height: 150%;
-	
+	height: 100%;
+	margin: 0px;
 }
-.geral {
-	min-height: 100%;
-	position: relative;
-	width: 100%;
+nav, footer {
+	width: 70%;
 }
-.banner {
-	
-	height: 10px;
-	border-radius: 3px;
-	text-align: center;
+header {
+	background-color: #0A940A;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	height: 110px;
+	text-align: left;
 }
-
-.rodape {
+section {
+	height: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 80%;
+	margin-top: 4%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+footer {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: white;
-    background-color: #228B22;
+    background-color: #0A940A;
 	border: 1px solid;
 	text-align: center;
-	font-style: italic;
 	font-size: 13px;
-	padding-bottom: 8px; 
-	position: absolute;
-	bottom: 0;
 	width: 100%;
-	margin-top: 50px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
+	margin-top: 10px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
 }
