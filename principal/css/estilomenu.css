@@ -45,7 +45,7 @@ body{
 	position:absolute;		
 	top: 30px;
 	display: none;
-	left: -15.5px;
+	margin-left: -15.5px;
 
 }
 .menu li:hover ul, .menu li ul li:hover ul, .menu li .over ul, .menu li ul li .over ul{
@@ -58,8 +58,7 @@ body{
 	width: 700%;
 	height: 30px;
 	line-height: 30px;
-	vertical-align: center;
-	margin-left: 14.2px;
+	text-align: center;
 }
 .menu li ul li a {
 	text-align: center;
@@ -74,7 +73,7 @@ body{
 ul, li {
 	display: inline;
 	height: 100%;
-	width: 12.67%;
+	width: 12.017%;
 	text-align: center;
 	border-right-color: #0A7A0A;
 }
