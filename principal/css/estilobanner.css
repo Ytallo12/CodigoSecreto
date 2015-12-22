@@ -5,6 +5,9 @@ html, body {
 nav, footer {
 	width: 100%;
 }
+nav {
+	display: inline-block;
+}
 header {
 	background-color: #0A940A;
 	border-top-right-radius: 3px;
@@ -13,13 +16,12 @@ header {
 	text-align: left;
 }
 section {
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	height: auto;
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 80%;
-	margin-top: 1.5%;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color: lightgrey;
 }
