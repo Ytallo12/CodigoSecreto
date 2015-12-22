@@ -10,11 +10,12 @@ body{
 	list-style-type: none;
 	float:left;
 	width: 100%;
-	vertical-align: center;
+	display: block;
+	background-color: #0A7A0A;
 }
 .menu li:last-child{
 	border-bottom-right-radius: 3px;
-	border-right-color: #0A940A;
+	border-right-color: #0A7A0A;
 }
 .menu li:first-child{
 	border-bottom-left-radius: 3px;
@@ -37,8 +38,8 @@ body{
 	cursor:pointer;
 	text-decoration: none;
 	width: 100%;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .menu li ul {
 	list-style-type: none;
@@ -55,7 +56,7 @@ body{
 .menu li ul li { 
 	border: 1px solid #0A7A0A;
 	display:inline;
-	width: 700%;
+	width: 78%;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
@@ -73,7 +74,6 @@ body{
 ul, li {
 	display: inline;
 	height: 100%;
-	width: 12.017%;
 	text-align: center;
 	border-right-color: #0A7A0A;
 }
