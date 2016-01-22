@@ -23,14 +23,16 @@ header {
 }
 section {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 1000px;
 	height: 100%;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: -4px;
+    margin-bottom: 68px;
 	width: 80%;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color: lightgrey;
+    position: relative;
 }
 footer {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -39,6 +41,8 @@ footer {
 	text-align: center;
 	font-size: 13px;
 	width: 100%;
+    position: fixed;
+    bottom: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	-moz-border-radius:3px;
