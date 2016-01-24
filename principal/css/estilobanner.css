@@ -1,3 +1,5 @@
+/* Estilos da estrutura */
+
 html, body {
 	height: 100%;
 	margin: 0px;
@@ -7,9 +9,9 @@ nav, footer {
 }
 nav {
 	display: inline-block;
-	padding-left: 10%;
-	padding-right: 10%;
-	width: 80%;
+	padding-left: 15%;
+	padding-right: 15%;
+	width: 70%;
 	background-color: #0A7A0A;
 }
 header {
@@ -18,18 +20,18 @@ header {
 	border-top-left-radius: 3px;
 	height: 110px;
 	text-align: left;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 section {
 	padding-top: 20px;
-	padding-bottom: 1000px;
-	height: 100%;
-	margin-left: 10%;
-	margin-right: 10%;
+	padding-bottom: 25px;
+	min-height: 64%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-top: -4px;
-    margin-bottom: 68px;
-	width: 80%;
+    margin-bottom: 0px;
+	width: 70%;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color: lightgrey;
     position: relative;
@@ -37,14 +39,56 @@ section {
 footer {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: white;
-    	background-color: #0A940A;
+    background-color: #0A940A;
 	text-align: center;
 	font-size: 13px;
 	width: 100%;
-    position: fixed;
+    position: bottom;
     bottom: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
+}
+/* Estilo dos títulos e parágrafos */
+
+*{
+  margin: 0px;
+  padding: 0px;
+    
+}
+p{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-indent: 50px;
+  text-align: justify;
+}
+
+h1{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;    
+  text-align: justify;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  color:#228B22;
+}
+h2{
+  line-height: 200%;
+    
+}
+h2, h3, h4{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+/* Estilos da página mídia */
+
+table {
+	margin-left: 0px;
+	vertical-align: super;
+}
+table tr td{
+	padding: 1px 5px;
+}
+.exerc {
+	padding-left: 5px;
 }
