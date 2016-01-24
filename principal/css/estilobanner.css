@@ -25,6 +25,7 @@ header {
 }
 section {
 	padding-top: 20px;
+<<<<<<< HEAD
 	padding-bottom: 25px;
 	min-height: 64%;
 	margin-left: 15%;
@@ -32,9 +33,18 @@ section {
 	margin-top: -4px;
     margin-bottom: 0px;
 	width: 70%;
+=======
+	padding-bottom: 1000px;
+	min-height: 64%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: -4px;
+	margin-bottom: 0px;
+	width: 80%;
+>>>>>>> 318ea2440c2099f3172562babbe76480bd78d250
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color: lightgrey;
-    position: relative;
+    	position: relative;
 }
 footer {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -43,8 +53,13 @@ footer {
 	text-align: center;
 	font-size: 13px;
 	width: 100%;
+<<<<<<< HEAD
     position: bottom;
     bottom: 0;
+=======
+    	position: bottom;
+    	bottom: 0px;
+>>>>>>> 318ea2440c2099f3172562babbe76480bd78d250
 	padding-top: 10px;
 	padding-bottom: 10px;
 	-moz-border-radius:3px;
