@@ -30,7 +30,7 @@ section {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-top: -4px;
-    margin-bottom: 0px;
+    	margin-bottom: 0px;
 	width: 70%;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color: lightgrey;
@@ -38,12 +38,12 @@ section {
 footer {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: white;
-    background-color: #0A940A;
+    	background-color: #0A940A;
 	text-align: center;
 	font-size: 13px;
 	width: 100%;
-    position: bottom;
-    bottom: 0;
+    	position: relative;
+    	bottom: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	-moz-border-radius:3px;
