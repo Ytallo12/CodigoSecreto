@@ -22,6 +22,7 @@ header {
 	text-align: left;
 	padding-left: 15%;
 	padding-right: 15%;
+    
 }
 section {
 	padding-top: 20px;
@@ -44,8 +45,8 @@ footer {
 	width: 100%;
     	position: relative;
     	bottom: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 }
