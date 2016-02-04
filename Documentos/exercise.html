@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset="utf8">
+    <style>
+        #my_form {
+            width: 300px;
+            padding: 10px;
+        }
+        .form-group, .form-select {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        .form-group label {
+            float: left;
+            text-align: right;
+            margin-right: 10px;
+            width: 90px;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .form-group input {
+            font-size: 18px;
+            height: 25px;
+            width: 190px;
+        }
+        .form-select select {
+            width: 300px;
+            font-size: 18px;
+            height: 25px;
+        }
+        .boxShadow {
+            box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.8);
+        }
+        .hover {
+            background: rgba(50, 50, 50, 0.3);
+        }
+    </style>   
+    
+</head>
+<body>
+    <form action="" id="my_form">
+        <div class="form-group">
+            <label for="nome">Nome*</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail*</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div class="form-group">
+            <label for="tel">Telefone</label>
+            <input type="text" name="tel" id="tel">
+        </div>
+        <div class="form-group">
+            <label for="cel">Celular</label>
+            <input type="text" name="cel" id="cel">
+        </div>
+        <div class="form-select">
+            <select name="" id="background">
+                <option value="#fff">Escolha a cor de background</option>
+                <option value="#fff">--</option>
+                <option value="#f00">Vermelho</option>
+                <option value="#0f0">Verde</option>
+                <option value="#00f">Azul</option>
+                <option value="#ffa500">Laranja</option>
+            </select>
+        </div>
+    </form>
+    <script>
+    var select= document.getElementById("background")
+    select.onchange= function() {
+        document.getElementById("my_form").style.background=this.value;
+    }
+
+
+
+
+    </script>
+</body>
+</html>
